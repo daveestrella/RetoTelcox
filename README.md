@@ -38,9 +38,11 @@ Este proyecto es un módulo de visualización de consumo de servicios de telecom
 ```bash
 git clone https://github.com/tuusuario/telcox-consumo.git
 cd telcox-consumo
+```
 
 ### 2. Backend (Flask)
 
+```bash
 cd backend
 python -m venv venv
 venv\Scripts\activate  # Windows
@@ -48,24 +50,27 @@ venv\Scripts\activate  # Windows
 
 pip install -r requirements.txt
 python app.py
-
+```
 📡 Servidor Flask: http://localhost:5000
 
 ### 3. Frontend (Angular)
 
+```bash
 cd frontend
 npm install
 ng serve
-
+```
 🌐 Interfaz Angular: http://localhost:4200
 
 
-✅ Pruebas
+### ✅ Pruebas
+```bash
 ng test
+```
 
 
-🧪 API REST simulada (Flask)
-
+### 🧪 API REST simulada (Flask)
+```bash
 GET /api/consumo/<cliente_id>
 Ejemplo: GET http://localhost:5000/api/consumo/12345
 
@@ -76,9 +81,9 @@ Respuesta esperada:
   "minutos_consumidos": 120,
   "saldo_actual": 22.75
 }
-
-📁 Estructura del proyecto
-
+```
+### 📁 Estructura del proyecto
+```bash
 /backend
   ├── app.py
   └── requirements.txt
@@ -90,8 +95,8 @@ Respuesta esperada:
   └── ...
 
 README.md
+```
 
-
-✨ Autor
+### ✨ Autor
 David Estrella
 Reto de Desarrollo Fullstack para Empresa de Telecomunicaciones.
